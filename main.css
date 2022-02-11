@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+Body{
+	background-color:lavender
+}
+
+#container{
+	width:1440px;
+	margin:0 auto;
+}
+
+header{
+	width:100%;
+	height:100%;
+}
+
+header h1{
+	font-size: 55px;
+	font-family: blockhead-black-face,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+
+h2{
+	font-size: 30px;
+	font-family: blockhead-dark-side, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color:cornflowerblue
+}
+
+p1{
+	font-size: 20px;
+	font-family: blockhead-unplugged, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color:gray
+}
+
+article{
+	float: center;
+	padding:60px;
+	width:90%;
+	height:100px;
+	background-color:seashell
+}
+
+nav {
+	width:100%;
+	text-align: center; 
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	
+}
+
+nav li{
+	display:inline;
+	
+}
+table, th, td{
+	border:1px solid white; 
+	border-radius: 10px;
+}
+th, td{
+	background-color:silver
+}
+
+table{
+	border-spacing: 30px
+}
+
+th, td{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+
+td{
+	font-family: blockhead-dark-side, sans-serif;
+	color:darkslategray
+}
+
+caption{
+	font-family: blockhead-unplugged, sans serif;
+}
+
+footer{
+	text-align: center;
+	clear:both;
+	
+}
+
+nav a:link{
+	font-family: blockhead-unplugged, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color:plum;
+	text-decoration:none;
+	margin-right: 30px;
+
+}
+
+nav a:visited{
+	
+}
+
+nav a:hover{
+	color:blueviolet
+}
