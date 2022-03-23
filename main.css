@@ -89,6 +89,22 @@ td{
 	color:#4D5660
 }
 
+ nav td a:link{
+	color: #4D5660;
+}
+
+nav td a:visited{
+	color: #D50110;
+}
+
+nav td a:hover{
+	color: #080808;
+}
+
+nav td a:active{
+	color: #F5F9FC;
+}
+
 caption{
 	font-family: blockhead-unplugged, sans serif;
 	color:#9DACBB
