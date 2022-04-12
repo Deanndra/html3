@@ -2,7 +2,10 @@
 /* CSS Document */
 
 Body{
-	background-color:#080808
+	background-image: url("images3/bloodbackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 #container{
@@ -17,11 +20,9 @@ header{
 
 header h1{
 	font-size: 55px;
-	font-family: blockhead-black-face,sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
-	color:#D50110
 }
 
 h2{
@@ -42,8 +43,8 @@ p1{
 
 article{
 	float: center;
-	padding:60px;
-	width:90%;
+	padding-bottom:60px;
+	width:110%;
 	height:100px;
 	background-color:#4D5660
 }

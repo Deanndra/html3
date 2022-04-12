@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+Body{
+	background-image: url("images3/contact.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header {
+			padding: 30px;
+			text-align: center;
+			font-size: 35px;
+		}
+
+form{
+	text-align: right
+}
+
+nav {
+	width:100%;
+	text-align: center; 
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	
+}
+
+nav li{
+	display:inline;
+	
+}
+
+nav td a:visited{
+	color: #D50110;
+}
+
+nav td a:hover{
+	color: #080808;
+}
+
+nav td a:active{
+	color: #F5F9FC;
+}
+
+av a:link{
+	font-family: blockhead-unplugged, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color:#F5F9FC;
+	text-decoration:none;
+	margin-right: 30px;
+
+}
+
+nav a:visited{
+	
+}
+
+nav a:hover{
+	color:#9DACBB
+}

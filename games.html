@@ -2,10 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Games Section</title>
-	<header><h1>
-		<img src="images3/gamingheader.jpg" alt="Display of different characters from games" scr="gamingheader.jpg" style="width:1120px;height:330px">
+<title>Games</title>
+<header><h1>
+		<img src="images3/gamesbanner.jpg" alt="Display of different characters from games" scr="gamingheader.jpg" style="width:1440px;height:330px">
 		</h1>
+	<h2>
+	<a href="https://fontmeme.com/glow-effect/"><img src="images3/Games.png" alt="glow-effect" border="0"></a>
+	</h2>
 	</header>
 	</head>
 	<style>
@@ -14,26 +17,91 @@
 			box-sizing:border-box;
 		}
 		
+		h2{
+			font-size: 55px;
+	font-weight: 400;
+	height: 140px;
+	font-style: normal;
+	text-align: center;
+			
+		}
+		
 		body {
+			background-image: url("images3/gamesbackground.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size:cover;
 			font-family: blockhead-unplugged, sans serif;
 			font-weight: 400;
 			font-style: normal;
 			margin: 0;
 		}
 		
+		nav {
+	width:100%;
+	text-align: center; 
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	text-shadow: 0 0 3px #D50110;
+	
+}
+
+nav li{
+	display:inline;
+	
+}
+		
+		 nav td a:link{
+	color: #4D5660;
+}
+
+nav td a:visited{
+	color: #D50110;
+}
+
+nav td a:hover{
+	color: #080808;
+}
+
+nav td a:active{
+	color: #F5F9FC;
+}
+		nav a:link{
+	font-family: blockhead-unplugged, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color:#F5F9FC;
+	text-decoration:none;
+	margin-right: 30px;
+
+}
+
+nav a:visited{
+	
+}
+
+nav a:hover{
+	color:#9DACBB
+}
+		
 		.flex-container {
   display: flex;
-  flex-wrap: nowrap;
 }
 
 .flex-container > div {
   background-color: #4D5660;
-  width: 60px;
-  margin: 100px;
+  width: 300px;
+  margin: 195px;
   text-align: center;
   line-height: 55px;
   font-size: 20px;
 }
+		
 		article {
 			float: left;
 			padding: 20px;
@@ -49,18 +117,32 @@
 			color: #F5F9FC;
 		}
 		
+		form{
+			text-align: right;
+		}
+		
 	</style>
 
+	<nav>
+		<form>
+		<input type="text" name="Search" value="">
+			<input type="submit" name="Submit" vakue="">
+		</form>
+			<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="games.html">Games</a></li>
+			<li><a href="contact.html">Contact</a></li>	
+	  </ul> </nav>
+	
 <body>
 
 	<div class="flex-container">
   <div>1</div>
   <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
+  <div>3</div>
 </div>
 	
-	<footer>2022</footer>
+	<footer>2022@Litt1eTr33</footer>
 </body>
 </html>
