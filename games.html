@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Games</title>
+	<link rel="stylesheet" href="https://use.typekit.net/nqn6kps.css">
 <header><h1>
 		<img src="images3/gamesbanner.jpg" alt="Display of different characters from games" scr="gamingheader.jpg" style="width:1440px;height:330px">
 		</h1>
@@ -31,7 +33,7 @@
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-size:cover;
-			font-family: blockhead-unplugged, sans serif;
+			font-family: blockhead-dark-side, sans-serif;
 			font-weight: 400;
 			font-style: normal;
 			margin: 0;
@@ -48,6 +50,10 @@ nav ul{
 	margin:0;
 	padding:0;
 	text-shadow: 0 0 3px #D50110;
+	overflow:hidden;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 	
 }
 
@@ -89,33 +95,56 @@ nav a:hover{
 	color:#9DACBB
 }
 		
-		.flex-container {
-  display: flex;
-}
-
-.flex-container > div {
-  background-color: #4D5660;
-  width: 300px;
-  margin: 195px;
-  text-align: center;
-  line-height: 55px;
-  font-size: 20px;
-}
+		div.gallery {
+			margin: 110px;
+			border: 2px solid #D50110;
+			width: 190px;
+		}
 		
-		article {
+		div.gallery:hover {
+			border: 2px solid #9DACBB;
+		}
+		
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+		
+		div.desc {
+			padding: 100px;
+			text-align:center;
+			color: #4D5660
+		}
+		
+		{
+			box-sizing: border-box;
+		}
+		
+		.responsive {
+			padding: 0 40px;
 			float: left;
-			padding: 20px;
-			width: 96%;
-			background-color: #080808;
-			height: 490px;
+			width: 24.99999%;
 		}
 		
-		footer {
-			background-color: #4D5660;
-			padding: 10px;
-			text-align: center;
-			color: #F5F9FC;
+		@media only screen and (max-width: 700px) {
+			.responsive {
+				width: 49.99999%;
+				margin: 6px 0;
+			}
 		}
+		
+		@media only screen and (max-width: 500px) {
+			.responsive {
+				width: 100%;
+			}
+		}
+		
+		.clearfix:after {
+			content:"";
+			display: table;
+			clear: both;
+		}
+		
 		
 		form{
 			text-align: right;
@@ -137,12 +166,27 @@ nav a:hover{
 	
 <body>
 
-	<div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-</div>
+	<div class="responsive">
+	<div class="gallery">
+		<img src="images3/apexlegends.jpg" alt="Apex Legends" width="385" height="224">
+		<div class="desc"><p1>Pick your character. Round up your squad. Show everyone what legends are made up of. 
+			Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts. Play the classic 60-person Battle Royale matches, 3v3 Arenas battles, and limited-time modes and takeovers!</p1></div>
+		</div>
+	</div>
 	
-	<footer>2022@Litt1eTr33</footer>
+	<div class="responsive">
+	<div class="gallery">
+		<img src="images3/batman.jpg" alt="Apex Legends" width="385" height="224">
+		<div class="desc">Description</div>
+		</div>
+	</div>
+	
+	<div class="responsive">
+	<div class="gallery">
+		<img src="images3/bioshock.jpg" alt="Apex Legends" width="385" height="224">
+		<div class="desc">Description</div>
+		</div>
+	</div>
+	
 </body>
 </html>
