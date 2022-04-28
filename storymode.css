@@ -107,11 +107,11 @@ nav td a:visited{
 }
 
 nav td a:hover{
-	color: #080808;
+	color: #D50110;
 }
 
 nav td a:active{
-	color: #F5F9FC;
+	color: #D50110;
 }
 		nav a:link{
 	font-family: blockhead-unplugged, sans-serif;
@@ -133,4 +133,14 @@ nav a:hover{
 
 form {
 	text-align: right;
+}
+
+footer{
+	text-align: center;
+	clear:both;
+	
+}
+
+footer{
+	color:#D50110;
 }

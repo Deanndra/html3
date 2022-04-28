@@ -39,11 +39,11 @@ nav td a:visited{
 }
 
 nav td a:hover{
-	color: #080808;
+	color: #D50110;
 }
 
 nav td a:active{
-	color: #F5F9FC;
+	color: #D50110;
 }
 		nav a:link{
 	font-family: blockhead-unplugged, sans-serif;
@@ -135,3 +135,13 @@ p1 {
 			display: table;
 			clear: both;
 		}
+
+footer{
+	text-align: center;
+	clear:both;
+	
+}
+
+footer{
+	color:#F5F9FC
+}
