@@ -22,12 +22,6 @@ nav ul{
 	list-style-type: none;
 	margin:0;
 	padding:0;
-	text-shadow: 0 0 3px #D50110;
-	overflow:hidden;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	
 }
 
 nav li{
